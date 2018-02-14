@@ -1,6 +1,23 @@
 body{
   background-color: green;
+  background-image: img(background.jpg);
+  }
+
+
+
+h1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f00;
+  padding: .125em;
 }
+
+img {
+  border-width: .125em;
+  border-style: dotted;
+  border-color: #f00;
+}
+
 h1{
   font-family: PINTANINA;
   font-size: 80px

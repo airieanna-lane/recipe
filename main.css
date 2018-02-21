@@ -1,0 +1,73 @@
+body{
+  background-color: #339900;
+  width: 90%;
+  max-width: 50em;
+  margin: 0 auto;
+  }
+
+
+
+h1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #006699;
+  padding: .125em;
+  color: #00ff99;
+}
+
+p {
+  color: #000033;
+}
+
+ul {
+  color: #000099;
+  padding: 1em;
+}
+
+
+h2 {
+   color: #00ff99
+}
+
+h4 {
+  color: #99cc00
+}
+#ingredients {
+  background: #009966;
+}
+
+#ingredients ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+#ingredients li {
+  line-height: 1.5;
+  margin-top: .5em;
+}
+
+figure {
+  text-align: center;
+}
+
+/* header figcaption {
+  text-align: left;
+} */
+img {
+  border-width: .125em;
+  border-style: dotted;
+  border-color: #f00;
+}
+
+h1{
+  font-family: "Century Gothic";
+  font-size: 80px
+}
+img {
+
+  max-width: 100%
+}
+
+h5 {
+  color: #cc0000
+}

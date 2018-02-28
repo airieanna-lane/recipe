@@ -1,43 +1,98 @@
 body{
-  background-color: #339900;
+  background-color: #CAFAB9;
   width: 90%;
   max-width: 50em;
   margin: 0 auto;
   }
 
+a {
+  color: #FF5733;
+}
 
+a:hover,
+a:focus {
+  background-color: #FFC300;
+
+}
+
+@media (min-width: 60em) {
+ main {
+   border: 1px dashed #fff;
+   overflow: hidden;
+ }
+
+#ingredients,
+#preparation {
+  float: left;
+  width: 48%;
+}
+
+#ingredients {
+  margin-right: 4%;
+}
+
+nav {
+  padding-top: 1.5em;
+}
+.back-to-top {
+  color: #FF5733;
+  clear: both;
+}
+
+nav h2 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  padding-top: .5em;
+  padding-left: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  border: 1em;
+  border: 1px solid #FFC300;
+  border-radius: .3em;
+}
 
 h1 {
   border-width: 1px;
   border-style: solid;
-  border-color: #006699;
+  border-color: #581845;
   padding: .125em;
-  color: #00ff99;
+  color: #C70039;
 }
 
 p {
-  color: #000033;
+  color: #581845;
 }
 
 ul {
-  color: #000099;
+  color: #581845;
   padding: 1em;
 }
 
 
 h2 {
-   color: #00ff99
+   color: #FF5733
 }
 
 h4 {
-  color: #99cc00
+  color: #FF5733
 }
 #ingredients {
-  background: #009966;
+
 }
 
 #ingredients ul {
   list-style: disc;
+  background: #FFC300;
   padding-left: 1em;
 }
 
@@ -56,7 +111,7 @@ figure {
 img {
   border-width: .125em;
   border-style: dotted;
-  border-color: #f00;
+  border-color: #581845;
 }
 
 h1{
@@ -69,5 +124,13 @@ img {
 }
 
 h5 {
-  color: #cc0000
+  color: #C70039
+}
+
+/* ---- layout for wider width screen --*/
+
+/* --- breakpoint --*/
+@media (min-width: 60em) {
+
+
 }
